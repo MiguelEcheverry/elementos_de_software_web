@@ -1,0 +1,27 @@
+
+body {
+  background-color: #f3f4f5;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: black;
+  background-color: #a17ec2
+}
+
+p {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  color: #757575;
+}
+
+h3 {
+  font-family: Edwardian , Edwardian Script ITC, cursive;
+  font-size: 20px;
+  color: #333;
+  background-color: #a17ec2;
+}

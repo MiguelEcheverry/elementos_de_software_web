@@ -1,0 +1,17 @@
+
+ body {
+     background-color: rgb(52, 106, 177);
+ }
+ h1{
+ font-family: sans-serif;
+margin: 20px;
+background-color: rgb(187, 92, 182);
+ }
+h1 {
+ color: rgb(12, 12, 31);
+ font-size: 50px;
+ }
+p {
+color: rgb(24, 27, 70);
+ font-size : 30px;
+}
