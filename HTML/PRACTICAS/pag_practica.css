@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(160, 160, 206);
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: rgb(153, 135, 233);
+    color: rgb(87, 39, 165);
+    padding: 25px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(79, 41, 167);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: rgb(167, 149, 233);
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+nav a {
+    color: rgb(165, 39, 144);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(131, 41, 167);
+
+}
+main {
+    max-width: 800px;
+    background-color: rgb(187, 177, 226);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+article {
+    border-left: solid 4px rgb(165, 39, 144);
+    margin-bottom: 20px;
+
+
+}
+section{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgb(155, 151, 212);
+}
+aside {
+    background-color: rgb(155, 151, 212);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 3px solid rgb(165, 39, 144);
+}
+th {
+    background-color: rgb(151, 146, 223);
+    color: rgb(79, 95, 167);
+    padding: 10px;
+}
+
+footer {
+    background-color: rgb(205, 135, 233);
+    color: rgb(165, 39, 144);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.resaltado {
+    color: rgb(165, 39, 144);
+    background-color: rgb(187, 177, 226);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border-left: solid 4px rgb(165, 39, 144);
+}
+.boton {
+    display: block;
+
+    background-color: rgb(79, 39, 165);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.boton:hover {
+    background-color: rgb(117, 81, 246);
+}
+#mensaje-importante {
+    color: rgb(165, 39, 144);
+    background-color: rgb(187, 177, 226);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border-left: solid 4px rgb(165, 39, 144);
+}

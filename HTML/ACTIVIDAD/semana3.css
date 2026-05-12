@@ -1,0 +1,103 @@
+
+body {
+    /* Estilos del Punto 4 */
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    color: rebeccapurple;
+    background-color: mediumpurple;
+    line-height: 1.5;
+    
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    background-color: rgb(153, 135, 233);
+    color: rgb(87, 39, 165);
+    padding: 25px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(117, 41, 167);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: rgb(167, 149, 233);
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    color: rgb(165, 39, 39);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(167, 41, 41);
+}
+
+main {
+    max-width: 850px;
+    background-color: rgb(187, 177, 226);
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+article {
+    border-left: solid 5px rgb(137, 21, 114);
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+section {
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: rgb(155, 151, 212);
+    border-radius: 6px;
+}
+
+aside {
+    background-color: rgb(155, 151, 212);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 850px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: rgb(153, 135, 233);
+    color: rgb(68, 39, 165);
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.3);
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid rgb(79, 41, 167);
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(79, 41, 167);
+    color: white;
+}
