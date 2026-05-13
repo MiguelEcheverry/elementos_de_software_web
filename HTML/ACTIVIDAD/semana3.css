@@ -98,6 +98,37 @@ th, td {
 }
 
 th {
-    background-color: rgb(79, 41, 167);
+    background-color: rgb(157, 131, 218);
     color: white;
 }
+  aside {
+      width: 80%;
+      margin: 20px auto;
+      background-color: rgba(84, 90, 182, 0.8);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    }
+
+    /* Links */
+    .links a {
+      color: rgb(21, 6, 63);
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .links a:hover {
+      color: rgb(5, 141, 39);
+      text-decoration: underline;
+      font-size: 20px;
+    }
+
+  
+    ul {
+      list-style-type: square;
+    }
+
+    li {
+      margin: 10px 0;
+    }
